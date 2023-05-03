@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Events\VisitorContactedEvent;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Inertia\Response;
 
@@ -35,5 +37,24 @@ class MainSiteController extends Controller
     public function contacts() : Response
     {
         return inertia('Main/Contacts');
+    }
+
+    public function success() : Response
+    {
+        return inertia('Main/Success');
+    }
+
+    public function notify(Request $request) : RedirectResponse
+    {
+        $validated = $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|email',
+            'message' => 'required'
+        ]);
+
+        // notify admin
+        event(new VisitorContactedEvent($validated));
+
+        return redirect(route('site.success'));
     }
 }

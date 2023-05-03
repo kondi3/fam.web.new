@@ -1,14 +1,14 @@
 <template>
   <main>
     <!-- navigation -->
-    <section class="w-full border-b bg-white">
+    <section class="fixed top-0 left-0 z-50 w-full border-b bg-white">
       <div
         class="max-w-7xl mx-auto flex justify-between items-center px-4 lg:px-0 py-5"
       >
         <!-- brand -->
         <div>
           <Link :href="route('site.index')"
-            ><h3 class="font-black text-lg">Fight Aids Malawi</h3></Link
+            ><h3 class="font-bold text-lg text-gray-800">Fight Aids Malawi</h3></Link
           >
         </div>
 
@@ -17,9 +17,9 @@
           <li v-for="(nav_item, index) in nav_items" :key="index">
             <Link
               :href="route(nav_item.route)"
-              class="text-gray-500 hover:text-gray-800"
+              class="text-gray-500 tracking-wider hover:text-gray-800"
               :class="{
-                'font-bold text-gray-900': route().current(nav_item.route),
+                'font-medium text-gray-900': route().current(nav_item.route),
               }"
               >{{ nav_item.name }}</Link
             >
@@ -76,7 +76,7 @@
             :href="route(nav_item.route)"
             class="text-gray-500 hover:text-gray-800"
             :class="{
-              'font-bold text-gray-900': route().current(nav_item.route),
+              'font-medium text-gray-900': route().current(nav_item.route),
             }"
             >{{ nav_item.name }}</Link
           >
@@ -85,10 +85,64 @@
     </section>
 
     <!-- page content -->
-    <slot></slot>
+    <section class="w-full min-h-screen">
+      <slot></slot>
+    </section>
 
     <!-- footer -->
-    <section></section>
+    <section class="w-full">
+      <div class="w-full lg:max-w-7xl mx-auto flex flex-col justify-center space-y-8 lg:flex-row lg:justify-between items-center py-8 text-center lg:text-left tracking-wider">
+        <div class="w-full lg:w-1/3">
+          <h4 class="font-medium">Quick Links</h4>
+
+          <br>
+          <p class="text-sm text-gray-500 hover:text-gray-800 transition-colors">
+            <Link href="/#">Back to top</Link>
+          </p>
+          <p class="text-sm text-gray-500 hover:text-gray-800 transition-colors mt-0.5">
+            <Link :href="route('site.programmes')">Programmes</Link>
+          </p>
+          <p class="text-sm text-gray-500 hover:text-gray-800 transition-colors mt-0.5">
+            <Link :href="route('site.gbv')">GBV</Link>
+          </p>
+        </div>
+
+        <div class="w-full lg:w-1/3">
+          <h4 class="font-medium">About Us</h4>
+
+          <br>
+          <p class="text-sm text-gray-500 hover:text-gray-800 transition-colors">
+            <Link :href="route('site.about')">Organisation</Link>
+          </p>
+          <p class="text-sm text-gray-500 hover:text-gray-800 transition-colors mt-0.5">
+            <Link :href="route('site.about')">Vision and Mission</Link>
+          </p>
+          <p class="text-sm text-gray-500 hover:text-gray-800 transition-colors mt-0.5">
+            <Link :href="route('site.policies')">Policies</Link>
+          </p>
+        </div>
+
+        <div class="w-full lg:w-1/3">
+          <h4 class="font-medium">Contacts Us</h4>
+
+          <br>
+          <p class="text-sm text-gray-500 hover:text-gray-800 transition-colors">
+            The Secretariat, Fight Aids Malawi
+          </p>
+          <p class="text-sm text-gray-500 hover:text-gray-800 transition-colors mt-0.5">
+            Lilongwe 3, Malawi
+          </p>
+          <p class="text-sm text-gray-500 hover:text-gray-800 transition-colors mt-0.5">
+            <a href="mailto:info@fammalawi.org">info@fammalawi.org</a>
+          </p>
+        </div>
+
+        <div class="w-full lg:w-1/3">
+          <br>
+          <p class="text-sm mt-5 text-gray-500">Fight Aids Malawi &copy; {{ (new Date()).getFullYear() }}</p>
+        </div>
+      </div>
+    </section>
   </main>
 </template>
 

@@ -32,6 +32,8 @@ Route::get('/programmes', [MainSiteController::class, 'programmes'])->name('site
 Route::get('/contacts', [MainSiteController::class, 'contacts'])->name('site.contacts');
 Route::get('/policies', [MainSiteController::class, 'policies'])->name('site.policies');
 Route::get('/gbv', [MainSiteController::class, 'gbv'])->name('site.gbv');
+Route::get('/success', [MainSiteController::class, 'success'])->name('site.success');
+Route::post('/contacts', [MainSiteController::class, 'notify'])->name('site.notify');
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
