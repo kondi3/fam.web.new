@@ -51,7 +51,7 @@ Route::middleware(['auth', 'verified'])->prefix('admin')->group(function () {
 
     Route::get('/documents', [DocumentsController::class, 'index'])->name('documents.index');
     Route::post('/documents', [DocumentsController::class, 'store'])->name('documents.store');
-    Route::delete('/documents/{document}', [DocumentsController::class, 'destroy'])->name('documents.destroy');
+    Route::delete('/documents/{document:uuid}', [DocumentsController::class, 'destroy'])->name('documents.destroy');
 });
 
 require __DIR__.'/auth.php';

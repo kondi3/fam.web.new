@@ -21,5 +21,11 @@ class DatabaseSeeder extends Seeder
             'name' => 'Administrator',
             'email' => 'admin@fammalawi.org',
         ]);
+
+        User::factory()->create([
+            'type' => User::TYPE_WEB_MANAGER,
+            'name' => 'Administrator',
+            'email' => 'chikondikamwendo@yahoo.com',
+        ]);
     }
 }

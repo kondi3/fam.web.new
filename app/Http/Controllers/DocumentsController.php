@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Document;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\File;
 use Inertia\Response;
 
 class DocumentsController extends Controller
@@ -25,25 +26,33 @@ class DocumentsController extends Controller
 
         // store file
         $document = $request->file('document');
+        $name = $document->hashName();
+        $path = ROOT_DIR . '/storage/' . $name;
 
-        $path = $document->store();
+        // $path = $document->store();
+        if (!move_uploaded_file($document->path(), $path)) {
+            return back()->withErrors(['document' => 'Failed to upload file.']);
+        }
 
         if (!$path) {
             return back()->withErrors(['document' => 'Failed to upload document'])->onlyInput();
         }
 
         Document::query()->create([
+            'uuid' => uniqid(),
             'user_id' => $request->user()->id,
             'title' => $request->title,
             'size' => $document->getSize(),
-            'path' => $path,
+            'path' => $name,
         ]);
 
         return back();
     }
 
-    public function delete(Document $document) : RedirectResponse
+    public function destroy(Document $document) : RedirectResponse
     {
+        File::delete('storage/'.$document->path);
+
         $document->delete();
 
         return back();

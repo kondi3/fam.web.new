@@ -1,6 +1,6 @@
 <script setup>
 import AuthenticatedLayout from "@/Layouts/AuthenticatedLayout.vue";
-import { Head, useForm } from "@inertiajs/vue3";
+import { Head, useForm, Link } from "@inertiajs/vue3";
 import { ref } from "vue";
 import dayjs from 'dayjs'
 import relativeTime from 'dayjs/plugin/relativeTime'
@@ -112,6 +112,7 @@ const submit = (e) => {
                     <td class="p-4">Document Title</td>
                     <td class="p-4">Uploaded By</td>
                     <td class="p-4">Uploaded</td>
+                    <td class="p-4">Actions</td>
                 </tr>
             </thead>
 
@@ -120,6 +121,12 @@ const submit = (e) => {
                     <td class="px-4 py-2.5">{{ document.title }}</td>
                     <td class="px-4 py-2.5">{{ document.user.name }}</td>
                     <td class="px-4 py-2.5">{{ dayjs(document.created_at).fromNow() }}</td>
+                    <td class="px-4 py-2.5">
+                      <Link :href="route('documents.destroy', document)" method="delete" class="text-gray-500 hover:text-gray-600 transition-colors">
+                        <i class="fa-solid fa-trash text-xs mr-1"></i>
+                        Delete
+                      </Link>
+                    </td>
                 </tr>
             </tbody>
           </table>

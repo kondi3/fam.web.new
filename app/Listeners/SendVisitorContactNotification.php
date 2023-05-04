@@ -23,10 +23,10 @@ class SendVisitorContactNotification
      */
     public function handle(VisitorContactedEvent $event): void
     {
-        $users = User::query()->where('type', User::TYPE_WEB_MANAGER);
+        $users = User::query()->where('type', User::TYPE_WEB_MANAGER)->get();
 
         foreach ($users as $user) {
-            $user->notify(new VisitorContactNotification($event->visitor));
+            $user->getModel()->notify(new VisitorContactNotification($event->visitor));
         }
     }
 }

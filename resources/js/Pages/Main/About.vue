@@ -171,7 +171,7 @@ export default {
 .parallax {
   width: 100%;
   height: 400px;
-  background-image: url(images/5c4b8a2b-9740-44e2-960f-8048b704675c.jpg);
+  background-image: url(/images/5c4b8a2b-9740-44e2-960f-8048b704675c.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
