@@ -3,7 +3,7 @@
     <div class="w-full lg:max-w-7xl flex items-center min-h-screen px-6 py-12 mx-auto">
         <div>
             <p class="text-sm font-medium text-green-500">Success</p>
-            <h1 class="mt-3 text-2xl font-semibold text-gray-800 md:text-3xl">You message was sent</h1>
+            <h1 class="mt-3 text-2xl font-semibold text-gray-800 md:text-3xl">Your message was sent!</h1>
             <p class="mt-4 text-gray-500">Your message was successfully sent, we will write you back as soon as possible.</p>
 
             <div class="flex items-center mt-6 gap-x-3">

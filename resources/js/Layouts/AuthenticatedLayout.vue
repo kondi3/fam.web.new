@@ -8,6 +8,17 @@ import ResponsiveNavLink from '@/Components/ResponsiveNavLink.vue';
 import { Link } from '@inertiajs/vue3';
 
 const showingNavigationDropdown = ref(false);
+
+const nav_links = [
+    {
+        name: 'Dashboard',
+        route: 'dashboard'
+    },
+    {
+        name: 'Documents',
+        route: 'documents.index'
+    }
+]
 </script>
 
 <template>
@@ -29,8 +40,8 @@ const showingNavigationDropdown = ref(false);
 
                             <!-- Navigation Links -->
                             <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                                <NavLink :href="route('dashboard')" :active="route().current('dashboard')">
-                                    Dashboard
+                                <NavLink v-for="(nav_link, index) in nav_links" :key="index" :href="route(nav_link.route)" :active="route().current(nav_link.route)">
+                                    {{ nav_link.name }}
                                 </NavLink>
                             </div>
                         </div>
@@ -112,8 +123,8 @@ const showingNavigationDropdown = ref(false);
                     class="sm:hidden"
                 >
                     <div class="pt-2 pb-3 space-y-1">
-                        <ResponsiveNavLink :href="route('dashboard')" :active="route().current('dashboard')">
-                            Dashboard
+                        <ResponsiveNavLink v-for="(nav_link, index) in nav_links" :key="index" :href="route(nav_link.route)" :active="route().current(nav_link.route)">
+                            {{ nav_link.name }}
                         </ResponsiveNavLink>
                     </div>
 

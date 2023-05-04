@@ -23,6 +23,10 @@ class SendVisitorContactNotification
      */
     public function handle(VisitorContactedEvent $event): void
     {
-        User::query()->where('email', 'admin@fammalawi.org')->first()->getModel()->notify(new VisitorContactNotification(($event->visitor)));
+        $users = User::query()->where('type', User::TYPE_WEB_MANAGER);
+
+        foreach ($users as $user) {
+            $user->notify(new VisitorContactNotification($event->visitor));
+        }
     }
 }

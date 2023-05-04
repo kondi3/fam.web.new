@@ -17,7 +17,7 @@ class DatabaseSeeder extends Seeder
         // \App\Models\User::factory(10)->create();
 
         User::factory()->create([
-            'type' => User::TYPE_ADMIN,
+            'type' => User::TYPE_WEB_MANAGER,
             'name' => 'Administrator',
             'email' => 'admin@fammalawi.org',
         ]);

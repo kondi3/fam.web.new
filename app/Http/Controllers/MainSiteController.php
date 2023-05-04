@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Events\VisitorContactedEvent;
+use App\Models\Document;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Inertia\Response;
@@ -31,7 +32,9 @@ class MainSiteController extends Controller
 
     public function policies() : Response
     {
-        return inertia('Main/Policies');
+        $documents = Document::query()->latest()->paginate(10);
+
+        return inertia('Main/Policies', ['documents' => $documents]);
     }
 
     public function contacts() : Response

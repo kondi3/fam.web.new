@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DocumentsController;
 use App\Http\Controllers\MainSiteController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Foundation\Application;
@@ -31,18 +32,26 @@ Route::get('/about', [MainSiteController::class, 'about'])->name('site.about');
 Route::get('/programmes', [MainSiteController::class, 'programmes'])->name('site.programmes');
 Route::get('/contacts', [MainSiteController::class, 'contacts'])->name('site.contacts');
 Route::get('/policies', [MainSiteController::class, 'policies'])->name('site.policies');
+Route::get('/policies/view/{document:uuid}', [DocumentsController::class, 'view'])->name('documents.view');
+Route::get('/policies/download/{document:uuid}', [DocumentsController::class, 'download'])->name('documents.download');
 Route::get('/gbv', [MainSiteController::class, 'gbv'])->name('site.gbv');
 Route::get('/success', [MainSiteController::class, 'success'])->name('site.success');
 Route::post('/contacts', [MainSiteController::class, 'notify'])->name('site.notify');
-
-Route::get('/dashboard', function () {
-    return Inertia::render('Dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+});
+
+Route::middleware(['auth', 'verified'])->prefix('admin')->group(function () {
+    Route::get('/dashboard', function () {
+        return Inertia::render('Dashboard');
+    })->name('dashboard');
+
+    Route::get('/documents', [DocumentsController::class, 'index'])->name('documents.index');
+    Route::post('/documents', [DocumentsController::class, 'store'])->name('documents.store');
+    Route::delete('/documents/{document}', [DocumentsController::class, 'destroy'])->name('documents.destroy');
 });
 
 require __DIR__.'/auth.php';
