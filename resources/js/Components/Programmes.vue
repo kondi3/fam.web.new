@@ -9,6 +9,27 @@
           Our Programmes
         </h4>
       </div>
+      <p class="text-gray-600">
+        <b>Fight Aids Malawi</b> programming fall under the following:
+      </p>
+
+      <ol class="mt-5 pl-10 text-gray-600 list-decimal">
+        <li>SRHR and Safe Abortion Access Expansion</li>
+        <li>HIV prevention and linking to access to HIV Services</li>
+        <li>Community Engagement on Sexual Gender Based Violence</li>
+        <li>Advocacy:</li>
+      </ol>
+
+      <p class="text-gray-600 mt-5 font-medium">
+        Advocacy streams:
+      </p>
+
+      <ol class="mt-5 pl-10 text-gray-600 list-disc text-sm">
+        <li>Women rights to SRHR, HIV services, property rights</li>
+        <li>Legal reforms on SRHR and Abortion laws and policies, community, local and national level advocacy, issues based, evidence informed and guided</li>
+        <li>Local funding to SRHR activities, CDF engagement</li>
+        <li>Addressing stigma and discrimination, attitudes, practices</li>
+      </ol>
 
       <!-- accordion -->
       <div class="accordion mt-14" role="tablist" id="accordion-1">

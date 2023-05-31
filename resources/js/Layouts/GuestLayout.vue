@@ -90,7 +90,7 @@
     </section>
 
     <!-- footer -->
-    <section class="w-full">
+    <section class="w-full bg-gray-50">
       <div class="w-full lg:max-w-7xl mx-auto flex flex-col justify-center space-y-8 lg:space-y-0 lg:flex-row lg:justify-between items-center py-8 text-center lg:text-left tracking-wider">
         <div class="w-full lg:w-1/3">
           <h4 class="font-medium">Quick Links</h4>

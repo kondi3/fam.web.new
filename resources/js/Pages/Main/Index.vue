@@ -28,8 +28,12 @@ const indicators = [
 <template>
   <section class="w-full h-screen flex flex-col justify-between">
     <!-- hero section -->
-    <div class="flex-1 flex flex-col lg:flex-row justify-center lg:justify-between items-center">
-      <div class="w-full lg:w-1/2 px-5 lg:pl-80 lg:pr-24 text-center lg:text-left">
+    <div
+      class="flex-1 flex flex-col lg:flex-row justify-center lg:justify-between items-center"
+    >
+      <div
+        class="w-full lg:w-1/2 px-5 lg:pl-80 lg:pr-24 text-center lg:text-left"
+      >
         <h2 class="font-semibold text-4xl lg:text-5xl text-gray-800">
           A Healthy And Developed Malawi
         </h2>
@@ -63,14 +67,18 @@ const indicators = [
 
   <!-- loyalty -->
   <section class="w-full bg-gray-100">
-    <div class="w-full lg:max-w-7xl mx-auto px-4 lg:px-0 py-8 flex flex-col space-y-5 lg:flex-row justify-center lg:justify-between items-center">
+    <div
+      class="w-full lg:max-w-7xl mx-auto px-4 lg:px-0 py-8 flex flex-col space-y-5 lg:flex-row justify-center lg:justify-between items-center"
+    >
       <div class="w-full lg:w-1/4">
         <p class="text-2xl font-light text-gray-600 text-center lg:text-left">
           Saving Lives & Building Families Since 2008
         </p>
       </div>
 
-      <div class="w-full px-5 lg:px-0 lg:w-1/2 flex flex-col space-y-6 lg:space-y-0 lg:flex-row justify-center lg:justify-between items-center">
+      <div
+        class="w-full px-5 lg:px-0 lg:w-1/2 flex flex-col space-y-6 lg:space-y-0 lg:flex-row justify-center lg:justify-between items-center"
+      >
         <div
           class="w-full lg:w-auto text-center bg-gray-200 p-7 rounded"
           v-for="(indicator, i) in indicators"
@@ -87,7 +95,7 @@ const indicators = [
     </div>
   </section>
 
-  <!-- introduction -->
+  <!-- about introduction -->
   <section class="w-full">
     <div class="max-w-7xl mx-auto py-48">
       <div class="flex justify-start items-center space-x-4 px-5 lg:px-0">
@@ -95,28 +103,27 @@ const indicators = [
         <h4 class="font-bold text-2xl text-gray-700 capitalize">Who are we?</h4>
       </div>
 
-      <div class="flex flex-col lg:flex-row justify-center lg:justify-between px-5 lg:px-0 items-start mt-12">
+      <div
+        class="flex flex-col lg:flex-row justify-center lg:justify-between px-5 lg:px-0 items-center mt-12"
+      >
         <div class="flex-1 lg:pr-8 text-center lg:text-left">
           <p>
-            <b>Fight AIDS Malawi (FAM)</b> is a is a women’s rights organization
-            with a deliberate mandate to promote women and girls’ rights living
-            with and affected by <b>HIV/AIDS</b>. <b>FAM</b> is a
-            <b>Women Rights Organization (WRO)</b>
-            focused on advancing the rights and dignity of women and girls
-            living with HIV/AIDS against sexual and gender-based violence,
-            stigma and discrimination.
+            <b>Fight AIDS Malawi (FAM)</b> is a Women’s Rights Organization <b>(WRO)</b> with
+            a deliberate mandate to promote and protect women and girls’ rights.
+            FAM projects integrates and uses feminist approaches for promoting
+            the rights and equality for marginalized women and girls to access
+            <b>Sexual Reproductive Health and Rights (SRHR)</b> information and
+            services.
           </p>
 
           <p class="mt-5">
-            FAM <b>vision</b> is a society where sexual and gender-based
-            violence against women and girls is eradicated and where HIV
-            transmission is wiped out.
+            FAM <b>envisions</b> a society where women and girls access timely and quality HIV, SRHR and safe abortion information and services.
           </p>
 
           <div class="mt-8">
             <Link
               :href="route('site.about')"
-              class="text-gray-500 hover:text-gray-800 tracking-wider transition-colors text-sm uppercase"
+              class="text-sky-500 hover:text-sky-600 tracking-wider transition-colors text-sm uppercase"
               >Know More About Us
               <i class="fa-solid fa-arrow-right text-xs ml-2"></i
             ></Link>
@@ -135,7 +142,9 @@ const indicators = [
 
   <!-- parallax -->
   <section class="parallax">
-    <div class="w-full h-full bg-black bg-opacity-60 backdrop-blur text-white flex items-center">
+    <div
+      class="w-full h-full bg-black bg-opacity-60 backdrop-blur text-white flex items-center"
+    >
       <div class="max-w-7xl mx-auto text-center px-4 lg:px-0 py-10">
         <hp class="text-2xl lg:text-4xl font-light">
           See How We Are Contributing In The Fight Against
@@ -147,8 +156,51 @@ const indicators = [
           <Link
             :href="route('site.gbv')"
             class="text-gray-200 text-sm hover:text-white transition-colors tracking-widest"
-            >Read How We Address VAWG <i class="fa-solid fa-arrow-right text-xs ml-2"></i
+            >Read How We Address VAWG
+            <i class="fa-solid fa-arrow-right text-xs ml-2"></i
           ></Link>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- programmes introduction -->
+  <section class="w-full">
+    <div class="max-w-7xl mx-auto py-48">
+      <div class="flex justify-start items-center space-x-4 px-5 lg:px-0">
+        <div class="w-10 h-1.5 bg-orange-500"></div>
+        <h4 class="font-bold text-2xl text-gray-700 capitalize">What do we do?</h4>
+      </div>
+      <div
+        class="flex flex-col lg:flex-row justify-center lg:justify-between px-5 lg:px-0 items-center mt-12"
+      >
+        <div class="flex-1 mb-8">
+          <img
+            src="@/assets/images/SAM_0835.jpg"
+            alt=""
+          />
+        </div>
+
+        <div class="flex-1 lg:pl-8 text-center lg:text-left">
+          <p>
+            <b>Fight AIDS Malawi</b> programming fall under the following.
+          </p>
+
+          <ol class="mt-5 pl-4 text-gray-500 list-decimal">
+            <li>SRHR and Safe Abortion Access Expansion</li>
+            <li>HIV prevention and linking to access to HIV Services</li>
+            <li>Community Engagement on Sexual Gender Based Violence</li>
+            <li>Advocacy</li>
+          </ol>
+
+          <div class="mt-8">
+            <Link
+              :href="route('site.programmes')"
+              class="text-sky-500 hover:text-sky-600 tracking-wider transition-colors text-sm uppercase"
+              >More On Our Work
+              <i class="fa-solid fa-arrow-right text-xs ml-2"></i
+            ></Link>
+          </div>
         </div>
       </div>
     </div>
