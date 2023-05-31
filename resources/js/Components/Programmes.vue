@@ -1,8 +1,8 @@
 <template>
   <main>
-    <div class="max-w-7xl mx-auto" style="padding: 86px 12px">
+    <div class="max-w-7xl mx-auto px-5" style="padding-top: 86px; padding-bottom: 86px;">
       <div
-        class="flex justify-center lg:justify-start items-center space-x-4 lg:px-0 mb-5"
+        class="flex justify-start items-center space-x-4 lg:px-0 mb-5"
       >
         <div class="w-10 h-1.5 bg-orange-500"></div>
         <h4 class="font-bold text-2xl text-gray-700 capitalize">

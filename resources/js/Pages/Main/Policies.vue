@@ -16,8 +16,8 @@ defineProps({documents: Object})
 
 <template>
   <section class="w-full lg:min-h-screen flex flex-col justify-center items-center">
-    <div class="max-w-7xl mx-auto text-center">
-        <p class="w-1/2 mx-auto text-gray-500 tracking-wider">
+    <div class="max-w-7xl mx-auto text-center mt-36 lg:mt-0 px-5 lg:px-0">
+        <p class="lg:w-1/2 mx-auto text-gray-500 tracking-wider">
             To better serve our purpose, we put in place policies that guides us to achieve
             our vision. In the table below you can access our policies.
         </p>

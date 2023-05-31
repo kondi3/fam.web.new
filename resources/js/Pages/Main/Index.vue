@@ -181,7 +181,7 @@ const indicators = [
           />
         </div>
 
-        <div class="flex-1 lg:pl-8 text-center lg:text-left">
+        <div class="flex-1 lg:pl-8 text-left">
           <p>
             <b>Fight AIDS Malawi</b> programming fall under the following.
           </p>

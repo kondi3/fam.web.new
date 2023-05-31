@@ -110,7 +110,7 @@ export default {
   </section>
 
   <section class="w-full">
-    <div class="max-w-5xl mx-auto py-40 text-center">
+    <div class="max-w-5xl mx-auto py-40 px-4 text-center">
       <div class="flex-1">
         <p class="text-gray-600 text-base">
           <b>Fight AIDS Malawi</b> is a Non-Governmental Organization (NGO)
@@ -128,7 +128,7 @@ export default {
         </p>
       </div>
 
-      <div class="flex-1">
+      <div class="flex-1 mt-5 lg:mt-0">
         <p class="text-gray-600 text-base">
           In 2022, <b>Fight AIDS Malawi</b> has been reregistered due to the new
           law that came into effect in Malawi. <b>Fight AIDS Malawi</b> has,
@@ -220,7 +220,7 @@ export default {
     </div>
 
     <div
-      class="w-full lg:max-w-7xl mx-auto flex lg:justify-center space-x-5 px-5 lg:px-0 items-center mt-12"
+      class="w-full lg:max-w-7xl mx-auto flex flex-col space-y-16 lg:space-y-0 lg:flex-row lg:justify-center lg:space-x-5 px-5 lg:px-0 items-center mt-12"
     >
       <div class="flex-1">
         <div>
@@ -280,10 +280,10 @@ export default {
       <h4 class="font-bold text-2xl text-gray-700 capitalize">Our Approach</h4>
     </div>
 
-    <div class="max-w-7xl mx-auto text-gray-600">
+    <div class="max-w-7xl mx-auto text-gray-600 px-5 lg:px-0">
       <h4 class="font-medium mb-5 text-gray-800">Gender Equality Strategy</h4>
-      <div class="flex justify-start space-x-5">
-        <div class="w-1/2">
+      <div class="flex flex-col justify-start space-y-5 lg:space-y-0 lg:flex-row lg:space-x-5">
+        <div class="lg:w-1/2">
           <p class="">
             FAM strives to achieve gender equality by integrating a
             gender-transformative approach across all our programs. We
@@ -303,7 +303,7 @@ export default {
           </p>
         </div>
 
-        <div class="w-1/2">
+        <div class="lg:w-1/2">
           <p class="">
             FAM delivers trainings and creates culturally-specific intervention
             and prevention on Sexual Gender Based Violence (SGBV), including
@@ -326,10 +326,10 @@ export default {
       <h4 class="font-bold text-2xl text-gray-700 capitalize">Our Approach</h4>
     </div> -->
 
-    <div class="max-w-7xl mx-auto text-gray-600">
+    <div class="max-w-7xl mx-auto text-gray-600 px-5 lg:px-0">
       <h4 class="font-medium mb-5 text-gray-800">FAM Rights based approach</h4>
-      <div class="flex justify-start space-x-5">
-        <div class="w-1/2">
+      <div class="flex flex-col space-y-5 justify-start lg:space-y-0 lg:flex-row lg:space-x-5">
+        <div class="lg:w-1/2">
           <p class="">
             The FAM human rights-based approach is about empowering people to
             know and claim their rights. FAM engages women, girls and their
@@ -344,7 +344,7 @@ export default {
           </p>
         </div>
 
-        <div class="w-1/2">
+        <div class="lg:w-1/2">
           <p class="">
             FAM focuses on increasing awareness on responsibility of those with
             responsibility for fulfilling rights to recognise and know how to
@@ -369,7 +369,7 @@ export default {
       <h4 class="font-bold text-2xl text-gray-700 capitalize">Our Approach</h4>
     </div> -->
 
-    <div class="max-w-7xl mx-auto text-gray-600">
+    <div class="max-w-7xl mx-auto text-gray-600 px-5 lg:px-0">
       <h4 class="font-medium mb-5 text-gray-800">
         The principles guiding FAM Work
       </h4>
@@ -402,7 +402,7 @@ export default {
       </h4>
     </div>
 
-    <div class="max-w-7xl mx-auto">
+    <div class="max-w-7xl mx-auto px-5 lg:px-0">
       <p class="w-2/3 text-gray-600">
         FAM is governed by a Board of Trustees. The Board provides overall
         supervision and strategic direction to the FAM management. In project
