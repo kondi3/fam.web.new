@@ -74,7 +74,7 @@ const indicators = [
     <div class="w-full lg:max-w-7xl mx-auto px-4 lg:px-0 py-8 flex flex-col space-y-5 lg:flex-row justify-center lg:justify-between items-center">
       <div class="w-full lg:w-1/4">
         <p class="text-2xl font-light text-gray-600 text-center lg:text-left">
-          Saving Lives & Building Families Since 2008
+          Saving Lives & Building Families Since 2009
         </p>
       </div>
 
@@ -99,7 +99,7 @@ const indicators = [
   <Programmes />
 
   <!-- parallax -->
-  <section class="parallax">
+  <section class="parallax my-24">
     <div
       class="w-full h-full bg-black bg-opacity-60 backdrop-blur text-white flex items-center"
     >
@@ -130,7 +130,7 @@ const indicators = [
 .parallax {
   width: 100%;
   height: 400px;
-  background-image: url(/images/5c4b8a2b-9740-44e2-960f-8048b704675c.jpg);
+  background-image: url(/images/parallax.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

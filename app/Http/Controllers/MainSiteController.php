@@ -30,6 +30,11 @@ class MainSiteController extends Controller
         return inertia('Main/GBV');
     }
 
+    public function hiv() : Response
+    {
+        return inertia('Main/HIV');
+    }
+
     public function policies() : Response
     {
         $documents = Document::query()->latest()->paginate(10);

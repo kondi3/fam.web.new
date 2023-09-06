@@ -34,7 +34,8 @@ Route::get('/contacts', [MainSiteController::class, 'contacts'])->name('site.con
 Route::get('/policies', [MainSiteController::class, 'policies'])->name('site.policies');
 Route::get('/policies/view/{document:uuid}', [DocumentsController::class, 'view'])->name('documents.view');
 Route::get('/policies/download/{document:uuid}', [DocumentsController::class, 'download'])->name('documents.download');
-Route::get('/gbv', [MainSiteController::class, 'gbv'])->name('site.gbv');
+Route::get('/vawg', [MainSiteController::class, 'gbv'])->name('site.gbv');
+Route::get('/hiv', [MainSiteController::class, 'hiv'])->name('site.hiv.programme');
 Route::get('/success', [MainSiteController::class, 'success'])->name('site.success');
 Route::post('/contacts', [MainSiteController::class, 'notify'])->name('site.notify');
 

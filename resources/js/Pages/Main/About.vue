@@ -11,12 +11,8 @@ export default {
 <template>
   <section class="w-full h-screen flex flex-col justify-between">
     <!-- hero section -->
-    <div
-      class="flex-1 flex flex-col lg:flex-row justify-center lg:justify-between items-center"
-    >
-      <div
-        class="w-full lg:w-1/2 px-5 lg:pl-80 lg:pr-24 text-center lg:text-left"
-      >
+    <div class="flex-1 flex flex-col lg:flex-row justify-center lg:justify-between items-center">
+      <div class="w-full lg:w-1/2 px-5 lg:pl-80 lg:pr-24 text-center lg:text-justify">
         <div class="flex items-center justify-center lg:justify-start">
           <div class="w-10 h-1.5 bg-orange-500 mr-3"></div>
           <h2 class="font-semibold text-3xl lg:text-5xl text-gray-800">
@@ -24,36 +20,35 @@ export default {
           </h2>
         </div>
         <p class="mt-5 text-gray-600 text-base">
-          <b>Fight AIDS Malawi (FAM)</b> is a Women’s Rights Organization
-          <b>(WRO)</b> with a deliberate mandate to promote and protect women
-          and girls’ rights. FAM projects integrates and uses feminist
-          approaches for promoting the rights and equality for marginalized
-          women and girls to access
-          <b>Sexual Reproductive Health and Rights (SRHR)</b> information and
-          services.
+          <b>Fight AIDS Malawi (FAM)</b> is a national based community-based organization founded in 2009. <b>FAM’s</b>
+          mandate is to
+          expand access to HIV prevention and treatment services for women, children and girls.
         </p>
 
         <p class="mt-5 text-gray-600 text-base">
-          As a WRO, FAM work integrates innovation for advancing the rights and
-          dignity of women and girls who are <b>marginalized</b> by living with
-          HIV, poverty, religious and social stigma and discrimination, social
-          status; and by their gender because of simply being female.
+          In <b>FAM</b> community-based paediatric HIV interventions, Community Health Workers (CHW) form a crucial link
+          at all
+          four stages of HIV care for children: Find, test, start and stay. CHW are crucial in each stage of HIV care to
+          ensure children get the care they need.
         </p>
 
         <p class="mt-5 text-gray-600 text-base">
-          FAM projects focus on women and girls who are made more marginalized
-          in accessing health and SRHR services, HIV prevention and support
-          services. FAM works to advance the rights of women and girls made more
-          vulnerable to Sexual Gender Based Violence (SGBV), social isolation
-          and neglect.
+          In <b>FAM</b> community-led programming, CHW comprise of Volunteers, Community Educators, Peer Educators, Mother
+          Mentors and Health Surveillance Assistants, (HSAs). Through CHW, <b>FAM</b> projects empower women and girls to
+          exercise their Sexual Reproductive Health and Rights (SRHR).
+        </p>
+
+        <p class="mt-5 text-gray-600 text-base">
+          Through effective sub-granting and capacity building of smaller community-based organisations, <b>FAM</b>
+          projects
+          impact communities and individuals hit hardest by HIV. <b>FAM</b> integrates innovation in its projects to
+          address
+          structural barriers that prevent women, girls and children from accessing HIV and SRHR services.
         </p>
       </div>
 
       <div class="w-full lg:w-1/2 order-first lg:order-2 mb-5 lg:mb-0">
-        <img
-          src="@/assets/images/f7fe9b71-8e62-421c-a593-c501467f674d.png"
-          alt=""
-        />
+        <img src="@/assets/images/f7fe9b71-8e62-421c-a593-c501467f674d.png" alt="" />
       </div>
     </div>
   </section>
@@ -61,55 +56,47 @@ export default {
   <!-- vision and mission -->
   <section class="w-full bg-gray-100">
     <div
-      class="w-full lg:max-w-7xl mx-auto px-4 lg:px-0 py-10 flex flex-col space-y-5 lg:flex-row justify-center lg:justify-between lg:space-x-10 items-center"
-    >
+      class="w-full lg:max-w-7xl mx-auto px-4 lg:px-0 py-10 flex flex-col space-y-5 lg:flex-row justify-center lg:justify-between lg:space-x-10 items-center">
       <div class="w-full lg:w-1/4">
         <p class="text-2xl font-light text-gray-600 text-center lg:text-left">
-          Saving Lives & Building Families Since 2008
+          Saving Lives & Building Families Since 2009
         </p>
       </div>
 
       <div
-        class="w-full px-5 lg:px-0 lg:w-2/3 flex flex-col space-y-6 lg:space-y-0 lg:space-x-4 lg:flex-row justify-center lg:justify-between items-center"
-      >
+        class="w-full px-5 lg:px-0 lg:w-2/3 flex flex-col space-y-6 lg:space-y-0 lg:space-x-4 lg:flex-row justify-center lg:justify-between items-center">
         <div class="">
-          <div
-            class="flex justify-center lg:justify-start items-center space-x-4 px-5 lg:px-0"
-          >
+          <div class="flex justify-center lg:justify-start items-center space-x-4 px-5 lg:px-0">
             <div class="w-10 h-1.5 bg-orange-500"></div>
             <h4 class="font-bold text-2xl text-gray-700 capitalize">
               Our Vision
             </h4>
           </div>
 
-          <p class="mt-4 text-sm text-center lg:text-left">
-            Fight AIDS Malawi’s vision is to see a society where women and girls
-            access timely and quality HIV, SRHR and safe abortion information
-            and services.
+          <p class="mt-4 text-sm text-center lg:text-left text-gray-600">
+            Fight AIDS Malawi’s vision is to see a society where women, children and girls access timely and quality HIV
+            and SRHR information, services and resources.
           </p>
         </div>
 
         <div class="">
-          <div
-            class="flex justify-center lg:justify-start items-center space-x-4 px-5 lg:px-0"
-          >
+          <div class="flex justify-center lg:justify-start items-center space-x-4 px-5 lg:px-0">
             <div class="w-10 h-1.5 bg-orange-500"></div>
             <h4 class="font-bold text-2xl text-gray-700 capitalize">
               Our Mission
             </h4>
           </div>
 
-          <p class="mt-4 text-sm text-center lg:text-left">
-            The Goal of Fight AIDS Malawi is to address structural barriers that
-            promote inequality and discrimination against marginalized women and
-            girls.
+          <p class="mt-4 text-sm text-center lg:text-left text-gray-600">
+            The Mission of Fight AIDS Malawi is to address structural barriers that perpetuate inequality and prevent
+            women, children and girls from accessing HIV and SRHR information, services and resources.
           </p>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="w-full">
+  <!-- <section class="w-full">
     <div class="max-w-5xl mx-auto py-40 px-4 text-center">
       <div class="flex-1">
         <p class="text-gray-600 text-base">
@@ -147,31 +134,7 @@ export default {
         </p>
       </div>
     </div>
-  </section>
-
-  <!-- parallax -->
-  <section class="parallax">
-    <div
-      class="w-full h-full bg-black bg-opacity-60 backdrop-blur text-white flex items-center"
-    >
-      <div class="max-w-7xl mx-auto text-center px-4 lg:px-0 py-10">
-        <hp class="text-2xl lg:text-4xl font-light">
-          See How We Are Contributing In The Fight Against
-        </hp>
-
-        <h3 class="mt-2 text-3xl lg:text-4xl">Gender Based Violence</h3>
-
-        <div class="mt-5">
-          <Link
-            :href="route('site.gbv')"
-            class="text-gray-200 text-sm hover:text-white transition-colors tracking-widest"
-            >Read How We Address VAWG
-            <i class="fa-solid fa-arrow-right text-xs ml-2"></i
-          ></Link>
-        </div>
-      </div>
-    </div>
-  </section>
+  </section> -->
 
   <!-- <section class="w-full">
     <div class="flex justify-center items-center space-x-4 px-5 lg:px-0 mt-10">
@@ -210,9 +173,7 @@ export default {
   </section> -->
 
   <section class="w-full my-40">
-    <div
-      class="max-w-7xl mx-auto flex justify-start items-center space-x-4 px-5 lg:px-0 mb-28"
-    >
+    <div class="max-w-7xl mx-auto flex justify-start items-center space-x-4 px-5 lg:px-0 mb-28">
       <div class="w-10 h-1.5 bg-orange-500"></div>
       <h4 class="font-bold text-2xl text-gray-700 capitalize">
         Our Objectives
@@ -220,8 +181,7 @@ export default {
     </div>
 
     <div
-      class="w-full lg:max-w-7xl mx-auto flex flex-col space-y-16 lg:space-y-0 lg:flex-row lg:justify-center lg:space-x-5 px-5 lg:px-0 items-center mt-12"
-    >
+      class="w-full lg:max-w-7xl mx-auto flex flex-col space-y-16 lg:space-y-0 lg:flex-row lg:justify-center lg:space-x-5 px-5 lg:px-0 items-start mt-12">
       <div class="flex-1">
         <div>
           <span class="bg-sky-200 text-gray-600 px-5 py-3.5 rounded-full">
@@ -229,8 +189,7 @@ export default {
           </span>
         </div>
         <p class="mt-8">
-          To improve access to Sexual Reproductive Health and Rights (SRHR)
-          information, services and resources.
+          To expand access to HIV testing and treatment for marginalized women and their infants.
         </p>
       </div>
 
@@ -241,8 +200,8 @@ export default {
           </span>
         </div>
         <p class="mt-8">
-          To expand access to HIV testing for marginalized women, girls and
-          young people.
+          To support HIV treatment and care and address stigma and discrimination for marginalized women, girls and
+          children.
         </p>
       </div>
 
@@ -253,12 +212,11 @@ export default {
           </span>
         </div>
         <p class="mt-8">
-          To support HIV treatment and care for marginalized women, girls and
-          young people.
+          To empower women and girls with Sexual Reproductive Health and Rights (SRHR) information and services.
         </p>
       </div>
 
-      <div class="flex-1">
+      <!-- <div class="flex-1">
         <div>
           <span class="bg-sky-200 text-gray-600 px-5 py-3.5 rounded-full">
             4
@@ -268,52 +226,29 @@ export default {
           To reduce stigma and discrimination against women, girls and young
           people living with HIV and AIDS.
         </p>
-      </div>
+      </div> -->
     </div>
   </section>
 
   <section class="w-full bg-gray-100 py-14">
-    <div
-      class="max-w-7xl mx-auto flex justify-start items-center space-x-4 px-5 lg:px-0 mb-12"
-    >
+    <div class="max-w-7xl mx-auto flex justify-start items-center space-x-4 px-5 lg:px-0 mb-12">
       <div class="w-10 h-1.5 bg-orange-500"></div>
       <h4 class="font-bold text-2xl text-gray-700 capitalize">Our Approach</h4>
     </div>
 
     <div class="max-w-7xl mx-auto text-gray-600 px-5 lg:px-0">
-      <h4 class="font-medium mb-5 text-gray-800">Gender Equality Strategy</h4>
-      <div class="flex flex-col justify-start space-y-5 lg:space-y-0 lg:flex-row lg:space-x-5">
-        <div class="lg:w-1/2">
-          <p class="">
-            FAM strives to achieve gender equality by integrating a
-            gender-transformative approach across all our programs. We
-            acknowledge the disadvantages and discrimination that women and
-            girls face in exercising their SRHR, and we tackle the gender, age,
-            and power-related barriers that deny them these rights through SRHR
-            programs that ensure equity.
-          </p>
+      <h4 class="font-medium mb-5 text-gray-800">Life Cycle Approach (LiCA)</h4>
+      <div class="flex flex-col justify-start space-y-5 lg:space-y-0 lg:flex-row lg:space-x-5 text-justify">
+        <p class="flex-1">
+          Fight AIDS Malawi uses LiCA for mpowering communities to find and support pregnant women and children living
+          with HIV. FAM conducts evidence-based mapping of individual challenges per phase, assess relevant and unique
+          needs in HIV prevention and treatment.
+        </p>
 
-          <p class="mt-5">
-            FAM programming uses feminist approaches for prioritizing
-            integration of contraceptive services into health systems and
-            expanding access to reliable, long-acting contraception. FAM works
-            to reduce abortion-related stigma and increase awareness of unsafe
-            abortion as well as support civil society organizations that
-            advocate for conducive policies and systems.
-          </p>
-        </div>
-
-        <div class="lg:w-1/2">
-          <p class="">
-            FAM delivers trainings and creates culturally-specific intervention
-            and prevention on Sexual Gender Based Violence (SGBV), including
-            engaging religious leaders, traditional leaders and men and boys as
-            women’s rights champions. FAM helps to develop policy guidelines on
-            the standardization of SGBV response services and enable health and
-            social services providers to recognize, screen for and respond to,
-            support SGBV survivors and document and report SGBV incidents.
-          </p>
-        </div>
+        <p class="flex-1">
+          FAM works with CHW and partners to deliver innovative approaches for empowering women, children and girls to
+          prevent themselves from HIV infection or to adhere to or remain on HIV treatment.
+        </p>
       </div>
     </div>
   </section>
@@ -327,48 +262,28 @@ export default {
     </div> -->
 
     <div class="max-w-7xl mx-auto text-gray-600 px-5 lg:px-0">
-      <h4 class="font-medium mb-5 text-gray-800">FAM Rights based approach</h4>
-      <div class="flex flex-col space-y-5 justify-start lg:space-y-0 lg:flex-row lg:space-x-5">
-        <div class="lg:w-1/2">
-          <p class="">
-            The FAM human rights-based approach is about empowering people to
-            know and claim their rights. FAM engages women, girls and their
-            communities in human rights education to increase their ability in
-            demanding accountability of individuals.
-          </p>
+      <h4 class="font-medium mb-5 text-gray-800">Creative Collaboration Approach (CreCA).</h4>
+      <div class="grid grid-cols-2 gap-x-5 gap-y-4 text-justify">
+        <p class="">
+          CreCA creates and strengthens effective links among communities, Health Facilities and government authorities.
+          In CreCA inspired programming, CHW forms the core of HIV services delivery.
+        </p>
 
-          <p class="mt-5">
-            FAM project design and implementation give people greater
-            opportunities to contribute, make inputs and actively participate in
-            project design and implementation.
-          </p>
-        </div>
+        <p class="">
+          CreCA connects and links CHW with Home-Based Caregivers, Community-Based Health Care Services and Health
+          Facility Services. CHW are the linking pin between children and their caregivers or pregnant or lactating
+          women, Health Facilities, Key Community Members, and Local Government.
+        </p>
 
-        <div class="lg:w-1/2">
-          <p class="">
-            FAM focuses on increasing awareness on responsibility of those with
-            responsibility for fulfilling rights to recognise and know how to
-            respect those rights, and make sure they can be held to account.
-          </p>
-
-          <p class="mt-5">
-            The FAM human rights-based approach is about ensuring that both the
-            standards and the principles of human rights are integrated into
-            policymaking as well as the day to day running of organisations.
-          </p>
-        </div>
+        <p class="">
+          The CHW model is critical to finding, HIV testing and starting treatment and staying in care for children and
+          women. This ensures that children live healthily with HIV and pregnant women give birth to HIV-free babies.
+        </p>
       </div>
     </div>
   </section>
 
-  <section class="w-full pb-14">
-    <!-- <div
-      class="max-w-7xl mx-auto flex justify-start items-center space-x-4 px-5 lg:px-0 mb-12"
-    >
-      <div class="w-10 h-1.5 bg-orange-500"></div>
-      <h4 class="font-bold text-2xl text-gray-700 capitalize">Our Approach</h4>
-    </div> -->
-
+  <!-- <section class="w-full pb-14">
     <div class="max-w-7xl mx-auto text-gray-600 px-5 lg:px-0">
       <h4 class="font-medium mb-5 text-gray-800">
         The principles guiding FAM Work
@@ -390,12 +305,10 @@ export default {
         </ol>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <section class="w-full pb-14 mt-10">
-    <div
-      class="max-w-7xl mx-auto flex justify-start items-center space-x-4 px-5 lg:px-0 mb-8"
-    >
+    <div class="max-w-7xl mx-auto flex justify-start items-center space-x-4 px-5 lg:px-0 mb-8">
       <div class="w-10 h-1.5 bg-orange-500"></div>
       <h4 class="font-bold text-2xl text-gray-700 capitalize">
         Our Governance
@@ -404,13 +317,12 @@ export default {
 
     <div class="max-w-7xl mx-auto px-5 lg:px-0">
       <p class="w-2/3 text-gray-600">
-        FAM is governed by a Board of Trustees. The Board provides overall
-        supervision and strategic direction to the FAM management. In project
-        design and implementation, FAM is guided by several governance and
-        planning documents and policies including the following:
+        Fight AIDS Malawi is governed by a Board of Trustees which provides strategic direction and oversight to the
+        Management. The Management is led by an Executive Director and has 18 staff members. The Management is supported
+        by a dedicated network of 420 Community Health Workers and Volunteers.
       </p>
 
-      <ol class="mt-5 pl-10 list-decimal text-gray-600">
+      <!-- <ol class="mt-5 pl-10 list-decimal text-gray-600">
         <li>The Governance and Procedures Policy</li>
         <li>The Financial Policy</li>
         <li>The Anti-Corruption Policy</li>
@@ -422,14 +334,31 @@ export default {
         <li>The staff Code of Conduct</li>
         <li>The Risk Register Policy</li>
         <li>The Strategic Plan</li>
-      </ol>
+      </ol> -->
 
-      <div class="mt-8">
-        <Link
-          :href="route('site.policies')"
-          class="text-sky-500 hover:text-sky-600 tracking-wider transition-colors text-sm uppercase"
-          >More On Our Policies <i class="fa-solid fa-arrow-right text-xs ml-2"></i
-        ></Link>
+      <!-- <div class="mt-8">
+        <Link :href="route('site.policies')"
+          class="text-sky-500 hover:text-sky-600 tracking-wider transition-colors text-sm uppercase">More On Our Policies
+        <i class="fa-solid fa-arrow-right text-xs ml-2"></i></Link>
+      </div> -->
+    </div>
+  </section>
+
+  <!-- parallax -->
+  <section class="parallax my-24">
+    <div class="w-full h-full bg-black bg-opacity-60 backdrop-blur text-white flex items-center">
+      <div class="max-w-7xl mx-auto text-center px-4 lg:px-0 py-10">
+        <hp class="text-2xl lg:text-4xl font-light">
+          See How We Are Contributing In The Fight Against
+        </hp>
+
+        <h3 class="mt-2 text-3xl lg:text-4xl">Gender Based Violence</h3>
+
+        <div class="mt-5">
+          <Link :href="route('site.gbv')"
+            class="text-gray-200 text-sm hover:text-white transition-colors tracking-widest">Read How We Address VAWG
+          <i class="fa-solid fa-arrow-right text-xs ml-2"></i></Link>
+        </div>
       </div>
     </div>
   </section>
@@ -442,7 +371,7 @@ export default {
 .parallax {
   width: 100%;
   height: 400px;
-  background-image: url(/images/5c4b8a2b-9740-44e2-960f-8048b704675c.jpg);
+  background-image: url(/images/parallax.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

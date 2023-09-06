@@ -8,11 +8,11 @@ import { ZiggyVue } from '../../vendor/tightenco/ziggy/dist/vue.m';
 
 createInertiaApp({
     title: (title) => {
-        let _title = 'Fight Aids Malawi'
+        let _title = "Fight Aids Malawi - promoting and protecting women and girls’ rights."
 
-        if (title !== null && title !== '') {
-            _title += ' - ' + title
-        }
+        // if (title !== null && title !== '') {
+        //     _title += ' - ' + title
+        // }
 
         return _title
     },
