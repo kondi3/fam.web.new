@@ -21,8 +21,8 @@
             <Dropdown v-else>
               <template #trigger>
                 <div class="text-gray-500 tracking-wider hover:text-gray-800 space-x-2 cursor-pointer" :class="{
-                'font-medium text-gray-900': route().current('site.programmes') || route().current('site.gbv') || route().current('site.hiv.programme'),
-              }">
+                  'font-medium text-gray-900': route().current('site.programmes') || route().current('site.gbv') || route().current('site.hiv.programme'),
+                }">
                   <span cl>{{ nav_item.name }}</span>
                   <i class="fa-solid fa-chevron-down text-xs"></i>
                 </div>
@@ -65,6 +65,24 @@
           <Link v-if="!nav_item.group" :href="route(nav_item.route)" class="text-gray-500 hover:text-gray-800" :class="{
             'font-medium text-gray-900': route().current(nav_item.route),
           }">{{ nav_item.name }}</Link>
+
+          <Dropdown v-else>
+            <template #trigger>
+              <div class="text-gray-500 tracking-wider hover:text-gray-800 space-x-2 cursor-pointer flex justify-between" :class="{
+                'font-medium text-gray-900': route().current('site.programmes') || route().current('site.gbv') || route().current('site.hiv.programme'),
+              }">
+                <span cl>{{ nav_item.name }}</span>
+                <i class="fa-solid fa-chevron-down text-xs"></i>
+              </div>
+            </template>
+
+            <template #content>
+              <div>
+                <DropdownLink v-for="(item, index) in nav_item.routes" :key="index" :href="route(item.route)">{{
+                  item.name }}</DropdownLink>
+              </div>
+            </template>
+          </Dropdown>
         </div>
       </div>
     </section>

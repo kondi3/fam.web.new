@@ -1,7 +1,7 @@
 ## Updates
 - [x] index page content updates
 - [x] about page content updates
-- [] hiv programme page
+- [x] hiv programme page
 - [x] pictures
 
 ## SEO

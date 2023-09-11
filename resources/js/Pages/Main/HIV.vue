@@ -15,305 +15,319 @@ export default {
             <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
               <div class="intro">
                 <h1 class="text-center text-4xl text-gray-600">
-                    FIGHT AIDS MALAWI PAEDIATRIC HIV PROGRAMME
+                  FIGHT AIDS MALAWI PAEDIATRIC HIV PROGRAMME
                 </h1>
                 <p class="text-center uppercase text-gray-500 text-sm my-5">
-                  <span class="date" style="border-style: none"
-                    >WHY FAM IS WORKING TO ADDRESS PAEDRIATIC HIV</span
-                  >
+                  <span class="date" style="border-style: none">WHY FAM IS WORKING TO ADDRESS PAEDRIATIC HIV</span>
                 </p>
-                <img class="my-8" src="@/assets/images/SAM_0835.jpg" />
+                <img class="my-8" src="/images/hiv_1.jpg" />
               </div>
               <div class="text">
                 <h2>The Back Story</h2>
                 <p style="text-align: justify">
-                  Violence against Women and Girls (VAWG) is a global phenomenon
-                  and Malawi is no exception. The 2015/16 Malawi Demographic and
-                  Health Survey found&nbsp;that 34% of the women aged 15-49
-                  reported experiencing physical violence, 14%&nbsp;experienced
-                  sexual violence while 23% experienced emotional violence
-                  within the&nbsp;12 months period prior to the survey (National
-                  Statistical Office, 2017). In&nbsp;Malawi there are also a
-                  number of traditional practices that prevent women
-                  and&nbsp;girls from fully realizing their sexual and
-                  reproductive health and rights&nbsp;(SRHR) as well as other
-                  human rights.<br />
+                  In Malawi, despite significant progress, the number of children becoming newly infected with HIV remains
+                  unacceptably high. High numbers of children living with HIV and pregnant women remain unaware of their
+                  HIV status and not able to start and continue HIV treatment. <br />
                 </p>
                 <p style="text-align: justify">
-                  In Malawi, the prevalence of traditional practices such as
-                  child marriage and sexual initiation rituals has basically
-                  remained unchanged over the last 15 years, even though those
-                  have been falling globally at fast paces. 40% of all women who
-                  had ever experienced any type of physical or sexual violence
-                  sought help to stop violence (National Statistical Office,
-                  2017); 49% never sought any help nor informed anyone about the
-                  violence they had experienced.<br />
+                  When diagnosed with HIV, often very late, they are lost along the HIV treatment cascade, either before
+                  or after being enrolled into HIV care and having started treatment. Children with HIV and pregnant
+                  mothers remain undiagnosed for HIV because they are simply not known to the Health System.<br />
                 </p>
                 <p style="text-align: justify">
-                  Amongst those who sought help, 62% of the women reported that
-                  they sought help from their own families, 33% from their
-                  husbands’ families, 10% from their friends and only 10% sought
-                  help from the police (National Statistical Office, 2017).
-                  While various efforts have been made to address VAWG in
-                  Malawi, progress has, however, been slow. More efforts are,
-                  therefore, required in order to address SGBV, harmful
-                  practices and other SRHR issues affecting women and girls.
-                  Fight AIDS Malawi knows that the elimination of VAWG can be
-                  achieved by effectively addressing the prevailing gender and
-                  socio-cultural norms in communities.<br />
-                </p>
-                <h2>Our Response to End VAWG Programme</h2>
-                <p style="text-align: justify">
-                  FAM in addressing VAWG (Violence Against Women and Girls) has
-                  adopted a human rights-based and integrated approach with a
-                  goal of eradicating VAWG against girls and women. The
-                  programme aims at ending the HIV epidemic among girls and
-                  women. FAM is strengthening individual and community
-                  capacities to address harmful norms and cultural practices
-                  that inhibit individual rights and leave adolescent girls and
-                  women vulnerable to transactional sex. <br />
+                  Evidence shows that compared with older HIV-infected women, HIV-infected adolescent girls have lower
+                  uptake of vertical transmission prevention services, are more likely to transmit HIV to their infants
+                  and are more likely to disengage from postpartum HIV care.<br />
                 </p>
                 <p style="text-align: justify">
-                  The FAM programme addresses relationships of power imbalances
-                  and situations of physical and mental vulnerability. The main
-                  components programme approach includes advocacy, capacity
-                  building, strengthening legal protections and challenging male
-                  stereotypes by engaging men, boys and chiefs in promoting
-                  girls and women rights. FAM vision under this programme is to
-                  see the societies where girl and women are fully empowered to
-                  defend themselves from human rights violation and live a life
-                  of dignity. <br />
-                </p>
-                <h2>Our Principles on Ending VAWG</h2>
-                <p style="text-align: justify">
-                  FAM adheres to the following principals in combating VAWG.<br />
+                  In Malawi, uptake of health services for HIV exposed infants remain low. Diagnosis of paediatric HIV
+                  remains a challenge leading to lower proportion of children living with HIV who start antiretroviral
+                  therapy (ART) compared with adults.<br />
                 </p>
                 <p style="text-align: justify">
-                  Intersectional approach to violence against women and girls
-                  (VAWG). FAM includes a consideration of where gender
-                  intersects with other inequalities oppressions (sexuality,
-                  gender identity, ethnicity, indigeneity, immigration status,
-                  disability, poverty and illiteracy) to produce unique
-                  experiences of violence. FAM understands the different ways in
-                  which violence is perpetrated and experienced, an
-                  intersectional lens that help the organization to develop
-                  appropriate specific interventions or responses when
-                  addressing VAWG. <br />
+                  Data shows that regular HIV testing, treatment, monitoring and care for children living with HIV can
+                  enable them to live long and fulfilling lives. However, lack of necessary investment and resources for
+                  adequate testing, paediatric ARVs and poor child-friendly prevention mean children disproportionately
+                  suffer consequences of the HIV epidemic. <br />
+                </p>
+
+                <h2>What Fight Aids Malawi is Doing</h2>
+                <p style="text-align: justify">
+                  Fight AIDS Malawi projects are addressing persistent problems and challenges and needs of children
+                  living with HIV and their mothers. In rural villages across Malawi, children aged 0-14 years are left
+                  behind in HIV care. Multiple challenges prevent children and pregnant and lactating women from accessing
+                  HIV vertical transmission prevention services. <br />
+                </p>
+
+                <h2>Community Level Challenges</h2>
+                <p style="text-align: justify">
+                  Household and community challenges include long distances to Clinics, lack of means to cover transport
+                  to Clinics or to ensure good nutrition, limited knowledge about HIV prevention and treatment, stigma and
+                  low male involvement. In Health Facilities, caregivers are overburdened and not sufficiently trained to
+                  provide child-friendly services. HIV-negative new mothers at high-risk of HIV are insufficiently tested
+                  while breastfeeding. <br />
+                </p>
+
+                <h2>The Current Situation</h2>
+                <p style="text-align: justify">
+                  District Health Offices (DHO) data from the districts FAM is working highlight persistent problems.
+                  Among children and adolescents living with HIV, 64% have been diagnosed and 52% are receiving ART.
+                  <br />
+                </p>
+
+                <p style="text-align: justify">
+                  Evidence shows that Failure to test children and their mothers to put them on HIV treatment result in
+                  children and Adolescents Living with HIV (ALHIV) to have worse ART adherence, lower rates of viral load
+                  suppression and lower retention in HIV care.
+                  <br />
+                </p>
+
+                <h2>Data Driven Programming</h2>
+                <p style="text-align: justify">
+                  In 2020, Ministry of Health estimated that 92% of HIV-positive pregnant women were initiated on ART
+                  across many districts in Malawi. 74% were retained in HIV care at 12 months postpartum.<br />
+                </p>
+
+                <p style="text-align: justify">
+                  Data shows that high attrition in vertical HIV prevention programs is more of Loss to Follow-Up (LTFU)
+                  than of mortality. Children born to women living with HIV and their mothers are missing out on
+                  life-saving treatment as they are not systematically monitored and followed up during the postpartum
+                  period. <br />
+                </p>
+
+                <h2>Fight Aids Malawi Experience and Past Results</h2>
+                <p style="text-align: justify">
+                  Fight AIDS Malawi has experience with the implemention of community-based paediatric HIV interventions.
+                  With ViiV Healthcare Positive Action funding, 2016-2019, FAM implemented STOP-HIV project. STOP-HIV
+                  improved blood sample collection and results delivery. <br />
                 </p>
                 <p style="text-align: justify">
-                  FAM put an intersectional approach into practice means going
-                  beyond analysis to disrupt the structures, systems and power
-                  relations that create and reinforce the inequalities that
-                  maintain women’s and girls’ compounded vulnerabilities to
-                  violence (e.g. transforming social norms, addressing
-                  discriminatory structures). FAM also requires transforming
-                  underlying socio-structural systems to address root causes
-                  that currently make some women and girls more vulnerable to
-                  violence. <br />
+                  STOP-HIV improved access to Early Infant Diagnosis for 1, 890 HIV positive children. STOP-HIV supported
+                  1, 644 ALHIV and 1, 220 WLHIV to initiate and stay on treatment. FAM is scaling up STOP-HIV in Dowa
+                  district with ViiV healthcare Positive Action funding, 2021-2025. <br />
                 </p>
                 <p style="text-align: justify">
-                  FAM ensures resilience and sustainability in a rapidly
-                  changing and complex environment is crucial in order to ensure
-                  sustained transformational change and facilitate quick
-                  adaptation and recovery from challenging situations. FAM
-                  strengthening organisation resilience includes ongoing
-                  monitoring and risk assessment, developing risk mitigation
-                  plans and contingency measures factored into project design.
+                  With Partners in Rights funding, 2019-2022, FAM implemented Healthy Infant Tracking System (HITSystem).
+                  HITSystem improved ART monitoring. Using electronic tracking, HITSystem traced 2, 650 WLHIV for ART
+                  refills and viral load tests. <br />
+                </p>
+                <p style="text-align: justify">
+                  FAM previous experience has shown lack of awareness of the relationship between HIV and disability
+                  amongst health professionals and the public, with little networking and sharing of experience. These
+                  challenges result in inadequate treatment for ALHIV with disabilities. <br />
+                </p>
+                <p style="text-align: justify">
+                  FAM will apply these lessons by integrating Tingathe (We can Do It) Guidance Package for integrating
+                  children’s and adolescents’ needs living with disability into HIV care. The Guidance Package will
+                  comprise HIV Care Manuals, Tools and Resources. <br />
+                </p>
+                <p style="text-align: justify">
+                  HIV Care Manuals will be used by CHW, caregivers, clinicians, rehabilitation technicians, disability
+                  programme officers, school teachers, community volunteers and parents to raise awareness, increase
+                  disability identification and bridge gaps between service providers and ALHIV. <br />
+                </p>
+                <p style="text-align: justify">
+                  Tools and Resources section will assist CHW, caregivers and physicians to screen children for
+                  disabilities. Educational resource centres will be listed along with available service providers and
+                  resource institutions for referrals and placement. <br />
+                </p>
+
+                <h2>The Fight AIDS Malawi approach aims to find, test, and treat, children and mothers and support them to
+                  stay in care.</h2>
+                <p style="text-align: justify">
+                  To find children and mothers, CHWs will move door to door to provide counseling for women to understand
+                  benefits of HIV testing, identify pregnant women not knowing their HIV status and motivate them for
+                  testing.<br />
+                </p>
+                <p style="text-align: justify">
+                  To provide HIV testing, CHWs educates community members on paediatric HIV, provide couple counselling
+                  and find HIV positive pregnant women. CHW will conduct door-to door HIV counseling, test pregnant women
+                  and children in homes or refer them for testing in clinics.<br />
+                </p>
+                <p style="text-align: justify">
+                  Trained CHW and Mother Mentors regularly tests HIV-negative new mothers at high-risk of HIV while
+                  breastfeeding. CHW will provide couple counseling to HIV negative women and new mothers and their HIV
+                  positive partners on benefits of and access to PrEP to protect their baby from getting HIV during
+                  pregnancy, or while breastfeeding.<br />
+                </p>
+                <p style="text-align: justify">
+                  To provide HIV treatment, CHAI integrates DSD for providing adolescent dedicated clinical consultations.
+                  DSD will deliver TB, mental health, substance abuse and adherence risk screening and support for
+                  children in designated spaces and on special days. <br />
+                </p>
+
+                <h2>How Fight AIDS Malawi Meaningfully Involves Target Groups</h2>
+                <p style="text-align: justify">
+                  Fight AIDS Malawi projects follow rights-based approaches to project design and implementation. FAM
+                  meaningfully involves ALHIV, pregnant and lactating mothers and WLHIV at every stage of LIFE
+                  implementation. During project design, a human focused approach are used to involve ALHIV and pregnant
+                  and lactating women in needs assessments, suggesting of solutions and prioritization of interventions.
                   <br />
                 </p>
                 <p style="text-align: justify">
-                  FAM develops adaptive and flexible programming methodologies
-                  (i.e. moving online, alternative arrangements for access and
-                  inclusivity in crisis situations), integration of measures to
-                  prevent backlash and resistance, partnerships with other
-                  CSOs/WROs to maintain community reach even through crises,
-                  measures to ensure sustainability of project results, and
-                  enhanced efforts to ensure organizational capacity. <br />
-                </p>
-                <h2>Immediate Results of the Programme</h2>
-                <p style="text-align: justify">
-                  FAM so far has realized the following immediately results
-                  under ending VAWG programme.<br />
-                </p>
-                <ul>
-                  <li>
-                    Reduced HIV vulnerabilities among girls by directly
-                    increasing access to SRHR resources and services for them.
-                  </li>
-                  <li>
-                    Improved capacities for communities to eradicate or modify
-                    harmful cultural practices that perpetuate VAWG.
-                  </li>
-                  <li>
-                    Improved psychosocial therapy and use legal instruments to
-                    prevent and report VAWG.
-                  </li>
-                  <li>
-                    Enhanced capacities for girls and women to claim their SRH
-                    rights, demand SRHR services, report VAWG cases.
-                  </li>
-                  <li>
-                    Reduced gender inequalities through rights education, SRHR
-                    advocacy and VAWG awareness creation.
-                  </li>
-                  <li>
-                    Increased access to psychosocial therapy to VAWG survivors
-                    by establishing CBRCs and making referrals.
-                  </li>
-                  <li>
-                    Increased access to justice for VAWG survivors by building
-                    VAWG handling capacities of VSUs.
-                  </li>
-                  <li>
-                    Strengthened linkages with Legal Affairs Section of Ministry
-                    of Gender where government lawyers provide free legal
-                    representation for VAWG survivors.
-                  </li>
-                  <li>
-                    Progressive reduction of harmful cultural practices that
-                    perpetuate VAWG by engaging influential leaders, men and
-                    boys to champion change.
-                  </li>
-                </ul>
-                <h2>Our Approach in Eliminating GENDER BASED VIOLENCE</h2>
-                <p style="text-align: justify">
-                  FAM in contributing to eliminate VAWG in Malawi has adopted
-                  the following approaches.<br />
-                </p>
-                <ul>
-                  <li>
-                    Human rights-based approach that places paramount priority
-                    on promoting, protecting and fulfilling the human rights of
-                    all women and girls. A human rights-based approach requires
-                    developing the capacities of ‘duty-bearers and ‘rights-
-                    holders’.
-                  </li>
-                  <li>
-                    Enhancement of a survivor-centered and girls and women’s
-                    empowerment approach that integrates women’s and girls’ own
-                    experiences and inputs within all initiatives and strategies
-                    as an essential part of successful programming. A
-                    survivor-centered approach is fundamental to the protection
-                    and promotion of the human rights of women and girls
-                    affected, and to their empowerment.
-                  </li>
-                  <li>
-                    Operating under ethical guidelines that ensure interventions
-                    and services prioritize, and guarantee women’s and girls’
-                    rights to safety and security, confidentiality and privacy,
-                    expression of opinion and autonomy to make decisions.
-                  </li>
-                  <li>
-                    Ensuring gender responsiveness and transformative approaches
-                    that seek to create or strengthen equitable gender norms and
-                    dynamics for fundamental, lasting changes for women and
-                    girls.
-                  </li>
-                  <li>
-                    Employing culturally and contextually relevant entry points
-                    through interventions that involve cultural, community,
-                    faith-based, youth and other leaders.
-                  </li>
-                  <li>
-                    Addressing specific forms and settings of VAWG through a
-                    clear understanding of specific contexts in which violence
-                    takes place for effective programme design and
-                    implementation, with knowledge about specific forms,
-                    settings, and population groups affected.
-                  </li>
-                  <li>
-                    Adopting an intersectional approach and focusing on groups
-                    most at risk of being left behind especially excluded or
-                    disadvantaged women and girls (such as women and girls with
-                    disabilities, LBT, internally displaced and refugees,
-                    indigenous, older and members of ethnic minorities).
-                  </li>
-                  <li>
-                    Operating within a socio-ecological model of understanding
-                    violence which aims to ensure that interventions consider
-                    and address the conditions across different levels (e.g.
-                    individual, family, community and society), which affect
-                    women and girls’ risks of experiencing violence.
-                  </li>
-                  <li>
-                    Working in partnership with different stakeholders’
-                    community-based groups, academic and research survivors and
-                    women-led organizations.
-                  </li>
-                </ul>
-                <h2>Integrated Services on VAWG</h2>
-                <p style="text-align: justify">
-                  FAM VAWG programme integrated services includes community
-                  support for VAWG victims, referrals for SRHR services,
-                  psychosocial therapy, medical services and legal support for
-                  VAWG survivors. The programme also increased engagement with
-                  men, boys and community leaders in strengthening advocacy to
-                  transform harmful practices and norms. <br />
+                  Project Scale up Surveys engage ALHIV and women who benefited from previous interventions. Disability
+                  needs activists were involved and they helped to engage ALHIV and WLHIV living with disabilities to
+                  ensure their needs are included.<br />
                 </p>
                 <p style="text-align: justify">
-                  Expected outcomes of this integration includes improved rights
-                  protection for girls and women, increased support for VAWG
-                  survivors, improved attitudes and societal norms and improved
-                  implementation of policies against practices perpetuating
-                  VAWG. <br />
-                </p>
-                <h2>Programme Interventions</h2>
-                <p style="text-align: justify">
-                  To achieve the programme intended objectives and goal in
-                  eradicating VAWG FAM undertaking the following
-                  interventions.<br />
-                </p>
-                <ul>
-                  <li>Economic empowerment for women and girls.</li>
-                  <li>
-                    Empowering girls, women and communities Sexual Reproductive
-                    Health Rights.
-                  </li>
-                  <li>
-                    Scaling the efforts for addressing unequal gender power
-                    balance relations.
-                  </li>
-                  <li>
-                    Addressing gender norms, altitudes, cultural values and
-                    practice.
-                  </li>
-                  <li>
-                    Provide legal, mental health and psycholo-social support
-                    services for VAWG survivors.
-                  </li>
-                  <li>
-                    Awareness services on legal support framework protocols and
-                    policies on VAWG.
-                  </li>
-                  <li>
-                    Facilitation of formulation and enforcement of by-laws at
-                    community and district level on ending VAWG.
-                  </li>
-                </ul>
-                <h2>Our Results Focused Approach</h2>
-                <p style="text-align: justify">
-                  To measure how the change is happening FAM incorporates and
-                  implements the following Monitoring, Evaluation,
-                  Accountability, Learning and sharing (MEALS) systems.
-                  Facilitate enhancement of a Baseline Study to establish levels
-                  of available capacities in villages and schools. <br />
-                </p>
-                <p style="text-align: justify">
-                  Measuring usage of available VAWG laws and policies in
-                  reporting VAWG and existing mechanism of VAWG incidences. The
-                  baseline Study also determines the Knowledge Attitudes and
-                  Practices regarding local and international human rights and
-                  barriers to integrating SRHR issues in the education
-                  curriculum. <br />
-                </p>
-                <p style="text-align: justify">
-                  In long run the MEALS determine the Knowledge, Attitudes and
-                  Practices among girls and women, Education Managers and School
-                  Teachers. The programme also embraces a mid- point process
-                  evaluation to measure effectiveness of interventions. To
-                  measure the impact of the VAWG programme FAM contacts
-                  consultants to conduct an End of the Project Evaluation.
+                  FAM integrates feedback mechanisms incorporated in project design. Beneficiaries’ meaningful engagement
+                  will continue during project implementation. Monthly Progress Meetings, Project Satisfaction Surveys
+                  (PSS), In-depth Interviews, Beneficiary Expectations Forums, will be used to collect feedback from
+                  children’s caregivers, ALHIV and WLHIV, community members and families.
                   <br />
+                </p>
+                <p style="text-align: justify">
+                  FAM projects are flexible and able to adapt to changing contexts and the needs of benefiting pregnant
+                  and lactating women, WLHIV and ALHIV. Once feedback is collected, an analysis of the feedback and how
+                  FAM proposes to respond to it will be conducted. The collected feedback will be immediately addressed. A
+                  report will be compiled and shared with everyone who provided feedback.
+                  <br />
+                </p>
+                <p style="text-align: justify">
+                  Fight AIDS Malawi involves communities through inclusive decision making. FAM Paediatric HIV Advisory
+                  Unit (PAU) will ensure meaningful inclusion of community responses that will address priority needs of
+                  ALHIV and WLHIV.
+                  <br />
+                </p>
+                <p style="text-align: justify">
+                  Fight AIDS Malawi use these mechanisms of beneficiary Feedback to increase and integrate a rights-based
+                  approach, increase transparency and ensure accountability to communities and beneficiaries. This will
+                  lead to project ownership and sustainability.
+                  <br />
+                </p>
+
+                <h2>Fight Aids Malawi Community Strengthening Approach</h2>
+                <p style="text-align: justify">
+                  To strengthen community structures, FAM will implement Community Systems Strengthening (CSS) approach.
+                  With CSS, projects capacitate schools and churches with improved knowledge and skills to support WLHIV
+                  and ALHIV.
+                  <br />
+                </p>
+                <p style="text-align: justify">
+                  CSS will engage teachers, community leaders and peer mothers as resource persons to educate communities
+                  to improve familial and social support for WLHIV and ALHIV. Tingathe Guidance Package will guide
+                  addressing needs of WLHIV and ALHIV with disabilities.
+                  <br />
+                </p>
+                <p style="text-align: justify">
+                  Family to Family (FtF) model is embedded into CSS to address stigma in families and create supportive
+                  environments for ALHIV and WLHIV. FtF CHW will trace children and WLHIV. FtF will regularly test HIV
+                  negative lactating mothers, provide PrEP and couple counseling for their HIV positive partners to stay
+                  on treatment.
+                  <br />
+                </p>
+
+                <h2>How Fight Aids Malawi Strengthens Community Clinic Collaborations</h2>
+                <p style="text-align: justify">
+                  FAM Projects address challenges of poor coordination between community structures and Health Facilities.
+                  In every new area where we work, needs assessments are done to understand the gaps in community clinic
+                  collaboration.
+                  <br />
+                </p>
+                <p style="text-align: justify">
+                  Based on needs assessments, Community Clinic Collaboration (C3) methodologies are integrated. Capacity
+                  building in C3 management and formalized meetings between communities and Clinics are introduced to
+                  improve coordinated planning and sharing.
+                  <br />
+                </p>
+                <p style="text-align: justify">
+                  With integrated C3 methodologies, communities and Clinics are capacitated to reach and sustain pregnant
+                  women, children and adolescents in care. Clinics and communities will act together to increase uptake,
+                  link children and families into care, combat stigma and discrimination, monitor programme quality, and
+                  build stronger local health systems.
+                  <br />
+                </p>
+                <p style="text-align: justify">
+                  The C3 methodologies transform structured clinic and community relationships. C3 tools provided
+                  necessary capacity-building for addressing health facility stigma and joint monitoring and
+                  co-ordination.
+                  <br />
+                </p>
+
+
+                <h2>Fight AIDS Malawi Advocacy</h2>
+                <p style="text-align: justify">
+                  Fight AIDS Malawi conducts evidence-based advocacy for improved access to HIV treatment and services for
+                  marginalized women, girls and children including Sex Workers.
+                  <br />
+                </p>
+
+
+                <h2>Fight AIDS Malawi Coalition Building Approach and its Impact</h2>
+                <p style="text-align: justify">
+                  Fight AIDS Malawi has experience of successfully working with subgrantees in implementing community
+                  paediatric HIV projects. From 2019 to 2021, FAM led twelve Community Based Organizations in implementing
+                  READY+ project with a budget of €950,000 funded by Partners in Rights. READY+ expanded access to HIV
+                  testing and treatment to 2, 689 pregnant women and 2, 780 children.
+                  <br />
+                </p>
+                <p style="text-align: justify">
+                  In 2016-2019, FAM led a consortium of 4 partners to implement STOP-HIV project. The consortium was
+                  funded by ViiV Healthcare Positive Action and National AIDS Commission, with a budget of £440,000. The
+                  consortium collectively expanded access to HIV services for pregnant women, children and adolescents
+                  aged 0-14 years.
+                  <br />
+                </p>
+                <p style="text-align: justify">
+                  The consortium proved impactful. Between 2016 and 2019, 1, 890 HIV positive children, 1, 644 ALHIV and
+                  1, 220 WLHIV were initiated on ART and supported to stay on treatment. With ViiV Healthcare Positive
+                  Action funding of £330,000, 2021-2025, STOP-HIV is being scaled up in Dowa district.
+                  <br />
+                </p>
+                <p style="text-align: justify">
+                  To build effective partnerships, FAM develops effective partnerships to amplify projects’ impact through
+                  capacity building and linking and learning. FAM combines its experiences with partners’ skills to
+                  enhance projects’ reach and save resources. FAM builds partners’ capacity to create shared learning and
+                  combining knowledge and skillsets.
+                  <br />
+                </p>
+
+                <h2>Fight Aids Malawi Capacity Building Initiative or Emerging Community Based Organizations</h2>
+                <p style="text-align: justify">
+                  Fight AIDS Malawi Capacity strengthening will focus on three areas:
+                  <br />
+                </p>
+
+                <br>
+                <h3>Capacity to Effectively Deliver</h3>
+                <p style="text-align: justify">
+                  Capacity building will include improving internal performance through policies, legal frameworks,
+                  partnerships and leadership.
+                  <br />
+                </p>
+
+                <br>
+                <h3>Capacity to Ensure Sustainability</h3>
+                <p style="text-align: justify">
+                  Capacity building will be done to improve technical capacities in managing HIV projects, social
+                  inclusion, overall planning, budgeting, financial analysis, monitoring and evaluation and resource
+                  mobilization.
+                  <br />
+                </p>
+
+                <br>
+                <h3>Capacity to Influence Change</h3>
+                <p style="text-align: justify">
+                  Capacity building will ensure partners improved capacities for evidence based advocacy. Capacity
+                  building will strengthen partners capacities to achieve three advocacy goals:
+                  <br />
+                </p>
+
+                <br>
+                <ol class="text-sm list-decimal px-10">
+                  <li>Advocate for legislators and chiefs to allocate CDF funding for paediatric HIV work in their areas.
+                  </li>
+                  <li>Advocate for government to adopt and scale-up LIFE’s innovative community-based paediatric HIV
+                    approaches.</li>
+                  <li>Advocate for Ministry of Gender to support CHW with monthly living allowances to motivate them and
+                    sustain their work.</li>
+                </ol>
+
+                <br />
+                <p style="text-align: justify">
+                  A Capacity Building Unit (CBU) is be responsible for managing technical capacities of partners. To
+                  strengthen partners’ capacity, CBU will use skills training sessions, mentorship and coaching
+                  trajectories, exchange visits and study tours, and learning and peer learning sessions.
                 </p>
               </div>
             </div>
@@ -331,24 +345,30 @@ export default {
 
 <style scoped>
 h2 {
-    font-size: 1.3em;
-    font-weight: bold;
-    color: rgb(45, 50, 58);
-    margin: 1em auto;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: rgb(45, 50, 58);
+  margin: 1em auto;
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: bold;
+  color: rgb(45, 50, 58);
+  margin-bottom: .2em;
 }
 
 p {
-    margin-top: .7em;
+  margin-top: .7em;
 }
 
 ul {
-    margin-top: .7em;
-    font-size: .9em;
-    list-style: disc;
-    padding-left: 4em;
+  margin-top: .7em;
+  font-size: .9em;
+  list-style: disc;
+  padding-left: 4em;
 }
 
 ul li {
-    margin: .4em auto;
-}
-</style>
+  margin: .4em auto;
+}</style>
